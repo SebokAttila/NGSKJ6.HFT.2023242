@@ -5,4 +5,9 @@
     <RootNamespace>NGSKJ6.HFT._2023242.Logic</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NGSKJ6.HFT.2023242.Models\NGSKJ6.HFT.2023242.Models.csproj" />
+    <ProjectReference Include="..\NGSKJ6.HFT.2023242.Repository\NGSKJ6.HFT.2023242.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
