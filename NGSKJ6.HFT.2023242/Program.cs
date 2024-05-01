@@ -9,7 +9,7 @@ namespace NGSKJ6.HFT._2023242
         static RestService RestService;
         static void Main(string[] args)
         {
-            RestService = new RestService("http://localhost:21149/", "Winery");
+            RestService = new RestService("http://localhost:20704/", "Winery");
             CrudService crud = new CrudService(RestService);
             NonCrudService noncrud = new NonCrudService(RestService);
 
