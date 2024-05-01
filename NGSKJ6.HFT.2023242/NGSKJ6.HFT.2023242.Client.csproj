@@ -6,4 +6,17 @@
     <RootNamespace>NGSKJ6.HFT._2023242</RootNamespace>
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.17" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="5.0.17" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="ConsoleMenu-simple" Version="2.7.0" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\NGSKJ6.HFT.2023242.Models\NGSKJ6.HFT.2023242.Models.csproj" />
+	</ItemGroup>
 </Project>
