@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGSKJ6.HFT.2023242.Logic", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGSKJ6.HFT.2023242.Models", "NGSKJ6.HFT.2023242.Models\NGSKJ6.HFT.2023242.Models.csproj", "{3B17FD37-F9C1-4D0B-9F84-FEB958A937D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGSKJ6.HFT.2023242.Test", "NGSKJ6.HFT.2023242.Test\NGSKJ6.HFT.2023242.Test.csproj", "{5BFA91C0-5227-4B91-BFDD-F041431025B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3B17FD37-F9C1-4D0B-9F84-FEB958A937D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B17FD37-F9C1-4D0B-9F84-FEB958A937D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B17FD37-F9C1-4D0B-9F84-FEB958A937D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFA91C0-5227-4B91-BFDD-F041431025B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFA91C0-5227-4B91-BFDD-F041431025B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFA91C0-5227-4B91-BFDD-F041431025B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFA91C0-5227-4B91-BFDD-F041431025B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
