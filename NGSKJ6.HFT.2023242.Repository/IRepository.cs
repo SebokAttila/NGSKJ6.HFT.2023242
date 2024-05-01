@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace NGSKJ6.HFT._2023242.Repository
 {
-    internal interface IRepository
+    public interface IRepository <T> where T : class
     {
+        IQueryable<T> ReadAll();
+        T Read(int id);
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(int id);
     }
 }
